@@ -16,9 +16,11 @@ Rather than using Ajax in frontend to send request to ther server periodically, 
 
 ##Installation
 The test environment is centOS 6.4(64bit). If there are some issues, just try to fix it.... or create an issue in this project.(Due to the chinese network, sometimes the installation may fail, just try it again or wait for a moment.)
+* install python-devel `yum install python-devel`(or `sudo apt-get install python-dev`)
 * update setuptool using `easy_install -U setuptools`
 * install pip `easy_install pip`(pip is a cool tool for installing python libs, you can just install python lib using `easy_install xxx` or using `pip install xxx`)
-* install autobahn `pip install autobahn` (it will automatically install twisted)
+* install twisted `pip install twisted`
+* install autobahn `pip install autobahn`
 * install dependencies `pip install sh`
 
 ##Usage
