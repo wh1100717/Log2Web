@@ -3,10 +3,16 @@ Log2Web
 
 Easily set a webserve watching log file and bring it on web with autobahn websocket tech.
 
+<img src="http://wh1100717.github.io/PolyTechDocs/img/python/log2web/log2web.png">
+
 ##Intro
 Log2Web is written in python including several libs like autobahn, twisted, sh, queue and threading. you can bring the log file information of your project to the web page without any change in your project. ONLY need one command and then all things will be done automatically.
 
 Rather than using Ajax in frontend to send request to the server periodically, connecting server with WebSocket protocol would bring much more real-timing and less communication consuming. This project using the broadcasting way to send the log information to the browser client which has connected to the server. 
+
+<img src="http://wh1100717.github.io/PolyTechDocs/img/python/log2web/log2webnoajax.png">
+
+(From the image above u can see: No ajax request has been send to server to fetch the log info!)
 
 ##Requirements
 * Python 2.6+
