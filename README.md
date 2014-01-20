@@ -1,12 +1,12 @@
 Log2Web
 =======
 
-easily set a webserve watching the log file and bring the information to website by using autobahn websocket tech.
+Easily set a webserve watching log file and bring it on web with autobahn websocket tech.
 
 ##Intro
-Log2Web is written in python with several libs including autobahn, twisted, sh, queue and threading. you can bring the log file information of your project to the web page without any change in your project. ONLY need one command and that all things has been done.
+Log2Web is written in python including several libs like autobahn, twisted, sh, queue and threading. you can bring the log file information of your project to the web page without any change in your project. ONLY need one command and then all things will be done automatically.
 
-Rather than using Ajax in frontend to send request to ther server periodically, connecting server with WebSocket protocol would bring much more real-timing and less communication consuming. This project using the broadcasting way to send the log information to the browser client which has connected to the server. 
+Rather than using Ajax in frontend to send request to the server periodically, connecting server with WebSocket protocol would bring much more real-timing and less communication consuming. This project using the broadcasting way to send the log information to the browser client which has connected to the server. 
 
 ##Requirements
 * Python 2.6+
@@ -15,7 +15,7 @@ Rather than using Ajax in frontend to send request to ther server periodically, 
 * sh
 
 ##Installation
-The test environment is centOS 6.4(64bit). If there are some issues, just try to fix it.... or create an issue in this project.(Due to the chinese network, sometimes the installation may fail, just try it again or wait for a moment.)
+The test environment is centOS 6.4(64bit). If there are some issues, just try to fix it.... or feel free to create an issue in this project.(Due to the chinese network, sometimes the installation may fail, just try it again or wait for a moment.)
 * install python-devel `yum install python-devel`(or `sudo apt-get install python-dev`)
 * update setuptool using `easy_install -U setuptools`
 * install pip `easy_install pip`(pip is a cool tool for installing python libs, you can just install python lib using `easy_install xxx` or using `pip install xxx`)
