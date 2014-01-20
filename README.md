@@ -28,3 +28,4 @@ two files should be included in your log system -- server.py(which would generat
 * just step into the directory that contains the server.py and use command `python server.py log_path port`(log_path means the absolute path of the log file which you want to bring to the web; port means the server port you specified.)
 * modify the log.html with your own ip address(or hostname) and port and put the code in some page of your website.
 * Then, just wath the page in browser and see what will happen!
+* If you want to stop the server, just use `ctrl+c` to stop it. NEVER use `ctrl+d`, there is a thread process which will not be killed in this way(well, u can use `ps -ef | grep server.py` to see whch one should be killed and then use `kill -9 process_id`. THAT is NOT recommended!).
