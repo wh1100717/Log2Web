@@ -12,7 +12,7 @@ Rather than using Ajax in frontend to send request to the server periodically, c
 
 <img src="http://wh1100717.github.io/PolyTechDocs/img/python/log2web/log2webnoajax.png">
 
-(From the image above u can see: No ajax request has been send to server to fetch the log info!)
+(From the image above u can figure out: no ajax request has been sent to the server for fetchint the log info!)
 
 ##Requirements
 * Python 2.6+
